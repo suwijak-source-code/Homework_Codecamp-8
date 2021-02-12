@@ -1,0 +1,210 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .container {
+    display: flex;
+    flex-flow: column;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .container {
+    display: flex;
+  }
+}
+
+:root {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-flow: column wrap;
+  /* justify-content: center; */
+  height: 900px;
+  width: 100%;
+  justify-content: space-between;
+  background-color: rgb(240, 242, 245);
+  /* padding: 50px; */
+}
+
+.container {
+  background-color: rgb(240, 242, 245);
+  padding: 200px 50px 0 100px;
+  margin-top: -40px;
+  /* margin-right: 100px; */
+  text-align: justify;
+}
+
+.pictext {
+  padding: 50px 50px 50px 100px;
+}
+footer {
+  display: flex;
+  flex-flow: column;
+  background-color: white;
+  width: 100%;
+  height: 150px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 -30px 0 -20px;
+}
+
+.lang {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 30px;
+  text-align: justify;
+  /* justify-content: center; */
+  word-spacing: 5px;
+  padding: 0 100px 0 130px;
+
+  font-size: 12px;
+  color: rgb(134, 141, 145);
+  margin-bottom: 5px;
+}
+
+/* .contentCurve{
+  border-bottom: solid;
+  margin: ;
+  justify-content: center;
+} */
+
+.utilities {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 30px;
+  margin-bottom: -5px;
+  text-align: justify;
+  /* justify-content: center; */
+  word-spacing: 10px;
+  padding: 0 100px 0 130px;
+  font-size: 12px;
+  color: rgb(134, 141, 145);
+  margin-top: -10px;
+}
+
+.copyright {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 30px;
+  text-align: justify;
+  /* justify-content: center; */
+  word-spacing: 10px;
+  padding: 0 100px 0 130px;
+  font-size: 12px;
+  color: rgb(134, 141, 145);
+  margin-top: -5px;
+}
+
+.form {
+  /* margin: 40px 0 0; */
+  /* padding: 10px 0 24px; */
+  /* display: flex; */
+  /* margin-bottom: 50px;
+  padding-bottom: 50px; */
+}
+.formlayout {
+  /* display: flex; */
+  flex-flow: column;
+  width: 340px;
+  margin: 0 0 0px 60px;
+  width: 396px;
+  height: 345.4px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 10px 10px 5px rgb(0, 0, 0) 10%;
+  border-radius: 10px;
+}
+
+.formbox {
+  display: flex;
+  flex-flow: column;
+  padding: 6px;
+  border-radius: 10px;
+  margin: 0 0 60px 0;
+  box-shadow: silver;
+}
+
+.email {
+  border-radius: 6px;
+  width: 330px;
+  height: 22px;
+  box-shadow: silver;
+  display: block;
+  padding: 14px 16px;
+  font-size: 17px;
+  margin: 10px 10px 5px;
+  border-style: solid rgb(134, 141, 145);
+}
+
+.pw {
+  border-radius: 6px;
+  width: 330px;
+  height: 22px;
+  box-shadow: silver;
+  display: block;
+  padding: 14px 16px;
+  font-size: 17px;
+  margin: 10px 10px 5px;
+  border-style: solid rgb(134, 141, 145);
+}
+
+.login-b {
+  color: white;
+  background-color: rgb(24, 119, 242);
+  border-radius: 6px;
+  width: 368px;
+  height: 48px;
+  margin: 10px 10px 5px;
+  border-style: none;
+  
+}
+
+.sign-b {
+  color: white;
+  background-color: rgb(66, 183, 42);
+  border-radius: 6px;
+  width: 368px;
+  height: 48px;
+  margin-top: -20px;
+  box-shadow: silver;
+  margin: 10px 10px 5px;
+  border-style: none;
+  padding-top: -10px;
+}
+
+.forgotten {
+  color: rgb(24, 119, 242);
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+  padding-bottom: 15px;
+  border-bottom: solid rgba(134, 141, 145,40%) ; 
+}
+
+.textunderbox {
+  text-align: center;
+  margin-top: -10px;
+}
+
+.fb_logo {
+  margin: -28px;
+  height: 106px;
+}
+
+.textmiddle {
+  color: #1c1e21;
+  font-size: 24px;
+  height: 56px;
+  width: 500px;
+  padding: 10px;
+}
+
+.contentCurve{
+  margin: -5px 5px 0 5px;
+  padding: 0 123px 0 153px;
+  color: #1c1e21;
+}
+
+.textmiddle{
+  text-align: justify;
+}

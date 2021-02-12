@@ -1,0 +1,63 @@
+body{
+ font-size: 30px;
+ display: inline-block ;
+ margin: 30px;
+ padding: 10px;
+ background-color: #f1f3f6; 
+ background: url(https://picsum.photos/id/1000/3000); 
+ line-height: 1.5em; 
+ 
+   
+}
+
+.headings{
+    text-align: center;
+    color: whitesmoke;
+    background-color:rgba(0, 93, 173, 0.5);
+    margin: 50px 0 50px 0;
+    padding: 50px;
+    font-size: 50px;
+    border-radius: 10px;
+}
+
+.card{
+    background-color: #f1f3f6;
+    display:inline-block;
+    box-shadow: 4px 8px 8px gray;
+    width: auto;
+    border-radius: 10px;
+    margin: 35px;
+    
+    
+}
+
+.card>img{
+    width: 500px;
+    border-radius: 10px 10px 10px 10px;
+    padding: center;
+   
+    
+}
+
+.container{
+    padding:2px 16px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 25px;
+    /* background-color:black; */
+    /* margin: -15px 0 0 0; */
+    }
+
+    .container>p{
+        font-size: 20px;
+    }
+.topdata{
+    text-align: justify;
+    text-indent: 50px;
+    font-weight: bolder 900px;
+    /* font-size: 20px; */
+}
+
+h1{
+    margin: auto;
+}
